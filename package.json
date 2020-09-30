@@ -9,15 +9,38 @@
     "lint": "eslint --ext .ts,.tsx . --max-warnings 0",
     "tsc": "tsc",
     "ci": "yarn lint && yarn tsc",
-    "test": "jest",
-    "snap": "jest -u"
+    "test": "jest --watchAll --verbose",
+    "snap": "jest -u",
+    "storybook": "start-storybook -p 6006 -h 127.0.0.1",
+    "build-storybook": "build-storybook",
+    "prestorybook": "rnstl"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "./src"
+      ],
+      "pattern": "**/*.stories.tsx",
+      "outputFile": "./storybook/storyLoader.js"
+    }
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)"
+    ],
+    "setupFiles": [
+      "<rootDir>/setupJest.ts"
+    ]
   },
   "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "^5.7.5",
     "babel-plugin-inline-dotenv": "^1.6.0",
     "expo": "~39.0.2",
     "expo-constants": "~9.2.0",
+    "expo-font": "~8.3.0",
     "expo-splash-screen": "~0.6.1",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
@@ -32,13 +55,26 @@
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-typescript": "^7.10.4",
+    "@storybook/addon-actions": "^6.0.22",
+    "@storybook/addon-essentials": "^6.0.22",
+    "@storybook/addon-links": "^6.0.22",
+    "@storybook/addon-ondevice-actions": "^5.3.23",
+    "@storybook/addon-storyshots": "^6.0.22",
+    "@storybook/react-native": "^5.3.23",
+    "@storybook/react-native-server": "^5.3.23",
     "@types/jest": "^26.0.14",
     "@types/react": "~16.9.35",
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
+    "@types/react-test-renderer": "^16.9.3",
+    "babel-loader": "^8.1.0",
     "eslint": "^7.10.0",
     "eslint-config-react-native-wcandillon": "^3.3.3",
     "jest": "^26.4.2",
+    "jest-expo": "^39.0.0",
+    "react-is": "^16.13.1",
+    "react-native-storybook-loader": "^2.0.2",
+    "react-test-renderer": "^16.13.1",
     "typescript": "~3.9.5"
   },
   "private": true

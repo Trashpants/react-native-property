@@ -1,0 +1,503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots KeyFeatureView Default Bath 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      6
+       
+      Bathroom
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Default Bed 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      3
+       
+      Bedroom
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Default Garage 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      2
+       
+      Garage
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Default Plot Size 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      6
+       
+      264 sqm
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Default Pools 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      6
+       
+      Swimming Pool
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Default Sitting Room 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      6
+       
+      Sitting Rooms
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Hides Label 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      2
+       
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Long Label 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      4
+       
+      Really long label
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Multiple Value 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text />
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      4
+       
+      Bathroom
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots KeyFeatureView Single Value 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text />
+    <Text
+      style={
+        Object {
+          "paddingLeft": 6,
+        }
+      }
+    >
+      1
+       
+      Bathroom
+    </Text>
+  </View>
+</View>
+`;
