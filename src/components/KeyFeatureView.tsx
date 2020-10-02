@@ -4,7 +4,9 @@ import PropertyFeatureIcons, {
   PropertyFeatureIconGlyphs,
 } from "@utilities/PropertyFeatureIcons";
 
-interface KeyFeatureViewProps {
+import colors from "utilities/Colors";
+
+export interface KeyFeatureViewProps {
   label: string;
   count: number;
   showsLabel?: boolean;
@@ -21,6 +23,12 @@ const KeyFeatureView: FunctionComponent<KeyFeatureViewProps> = ({
     container: {
       flexDirection: "row",
       alignItems: "center",
+      paddingVertical: 12,
+      backgroundColor: colors.grey100,
+      paddingHorizontal: 8,
+      marginVertical: 3,
+      marginHorizontal: 3,
+      borderRadius: 12,
     },
     text: {
       paddingLeft: 6,

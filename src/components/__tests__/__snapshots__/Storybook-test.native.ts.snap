@@ -1,5 +1,261 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots KeyFeatureList Default Layout 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F4F8",
+      "flex": 1,
+      "margin": 12,
+      "padding": 24,
+    }
+  }
+>
+  <Text>
+    List
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D9E2EC",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginHorizontal": 3,
+          "marginVertical": 3,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "paddingLeft": 6,
+          }
+        }
+      >
+        2
+         
+        Baths
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D9E2EC",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginHorizontal": 3,
+          "marginVertical": 3,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "paddingLeft": 6,
+          }
+        }
+      >
+        4
+         
+        Beds
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D9E2EC",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginHorizontal": 3,
+          "marginVertical": 3,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "paddingLeft": 6,
+          }
+        }
+      >
+        3
+         
+        more
+      </Text>
+    </View>
+  </View>
+  <Text>
+    Grid
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D9E2EC",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginHorizontal": 3,
+          "marginVertical": 3,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "paddingLeft": 6,
+          }
+        }
+      >
+        2
+         
+        Baths
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D9E2EC",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginHorizontal": 3,
+          "marginVertical": 3,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "paddingLeft": 6,
+          }
+        }
+      >
+        4
+         
+        Beds
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D9E2EC",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginHorizontal": 3,
+          "marginVertical": 3,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "paddingLeft": 6,
+          }
+        }
+      >
+        1
+         
+        Garage
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D9E2EC",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginHorizontal": 3,
+          "marginVertical": 3,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "paddingLeft": 6,
+          }
+        }
+      >
+        1
+         
+        Indoor Pool
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D9E2EC",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "marginHorizontal": 3,
+          "marginVertical": 3,
+          "paddingHorizontal": 8,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "paddingLeft": 6,
+          }
+        }
+      >
+        2
+         
+        264 sqm
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`Storyshots KeyFeatureView Default Bath 1`] = `
 <View
   style={
@@ -15,7 +271,13 @@ exports[`Storyshots KeyFeatureView Default Bath 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
@@ -69,7 +331,13 @@ exports[`Storyshots KeyFeatureView Default Bed 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
@@ -123,7 +391,13 @@ exports[`Storyshots KeyFeatureView Default Garage 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
@@ -177,7 +451,13 @@ exports[`Storyshots KeyFeatureView Default Plot Size 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
@@ -231,7 +511,13 @@ exports[`Storyshots KeyFeatureView Default Pools 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
@@ -285,7 +571,13 @@ exports[`Storyshots KeyFeatureView Default Sitting Room 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
@@ -339,7 +631,13 @@ exports[`Storyshots KeyFeatureView Hides Label 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
@@ -393,7 +691,13 @@ exports[`Storyshots KeyFeatureView Long Label 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
@@ -447,11 +751,36 @@ exports[`Storyshots KeyFeatureView Multiple Value 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
-    <Text />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
     <Text
       style={
         Object {
@@ -482,11 +811,36 @@ exports[`Storyshots KeyFeatureView Single Value 1`] = `
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#D9E2EC",
+        "borderRadius": 12,
         "flexDirection": "row",
+        "marginHorizontal": 3,
+        "marginVertical": 3,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
       }
     }
   >
-    <Text />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          undefined,
+          Object {
+            "fontFamily": "PropertyFeature",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
     <Text
       style={
         Object {
